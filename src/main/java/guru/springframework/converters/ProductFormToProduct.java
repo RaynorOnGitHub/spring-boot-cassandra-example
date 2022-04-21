@@ -27,17 +27,4 @@ public class ProductFormToProduct implements Converter<ProductForm, Product> {
         product.setImageUrl(productForm.getImageUrl());
         return product;
     }
-
-    /*@Override
-    public Product convert(ProductForm productForm) {
-        Product product = new Product();
-        if (productForm.getId() != null && !StringUtils.isEmpty(productForm.getId())) {
-            product.setId(productForm.getId());
-        }
-        product.setId(productForm.getId());
-        product.setDescription(productForm.getDescription());
-        product.setPrice(productForm.getPrice());
-        product.setImageUrl(productForm.getImageUrl());
-        return product;
-    }*/
 }
