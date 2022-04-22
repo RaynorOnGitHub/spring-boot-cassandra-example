@@ -1,6 +1,6 @@
 # spring-boot-cassandra-example
 
-Java 17 LTS / spring-boot 2.6.6 / single module version
+Java 17 LTS / spring-boot 2.6.6 / bootstrap 4.6.1 / jquery 3.6.0 / single module version ...
 
 ## Docker Cassandra Container
 
